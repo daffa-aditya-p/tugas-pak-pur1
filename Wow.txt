@@ -1,0 +1,10 @@
+nilai1, nilai2, nilai3, nilai4, nilai5, nilai6 = 93, 87, 83, 83, 93, 87
+kategori_1, kategori_2, kategori_3, kategori_4, kategori_5, kategori_6 = "", "", "", "", "", ""
+if True:  # cuma 1 if
+    kategori_1 = "C" * (nilai1 < 85) or "B" * (85 <= nilai1 <= 89) or "A" * (90 <= nilai1 <= 100)
+    kategori_2 = "C" * (nilai2 < 85) or "B" * (85 <= nilai2 <= 89) or "A" * (90 <= nilai2 <= 100)
+    kategori_3 = "C" * (nilai3 < 85) or "B" * (85 <= nilai3 <= 89) or "A" * (90 <= nilai3 <= 100)
+    kategori_4 = "C" * (nilai4 < 85) or "B" * (85 <= nilai4 <= 89) or "A" * (90 <= nilai4 <= 100)
+    kategori_5 = "C" * (nilai5 < 85) or "B" * (85 <= nilai5 <= 89) or "A" * (90 <= nilai5 <= 100)
+    kategori_6 = "C" * (nilai6 < 85) or "B" * (85 <= nilai6 <= 89) or "A" * (90 <= nilai4 <= 100)
+print(f"Nilai 1: {nilai1} Predikat: {kategori_1} \nNilai 2: {nilai2} Predikat: {kategori_2} \nNilai 3: {nilai1} Predikat: {kategori_3} \nNilai 4: {nilai4} Predikat: {kategori_4} \nNilai 5: {nilai5} Predikat: {kategori_5} \nnilai 6: {nilai6} Predikat: {kategori_6}")
